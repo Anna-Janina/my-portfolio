@@ -5,6 +5,7 @@ import Card from './components/card';
 import Nav from './components/Navigation';
 import Header from './components/Header';
 import AboutMe from './components/About';
+import ContactForm from './components/Contact';
 
 
 
@@ -48,6 +49,7 @@ function App() {
         >
           Learn React
         </a>
+        <ContactForm />
       {/* </header> */}
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import About from "./About";
 import AboutMe from "./About";
 
 function Nav() {
