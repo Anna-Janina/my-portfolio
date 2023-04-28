@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "./About";
 
-function Nav() {
+function Nav(props) {
   return (
     <div>
       <nav className="bg-[#ca8a04]">
@@ -14,8 +14,9 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href={ AboutMe }
+                    href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    onClick={() => {props.setPage("About")}}
                   >
                     About Me
                   </a>
@@ -23,6 +24,7 @@ function Nav() {
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    onClick={() => {props.setPage("Portfolio")}}
                   >
                     Portfolio
                   </a>
@@ -30,6 +32,7 @@ function Nav() {
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    onClick={() => {props.setPage("Contact")}}
                   >
                     Contact
                   </a>
@@ -37,6 +40,7 @@ function Nav() {
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    onClick={() => {props.setPage("Resume")}}
                   >
                     Resume
                   </a>
