@@ -20,6 +20,21 @@ function Portfolio() {
       description: "description",
       image: img1,
     },
+    {
+      title: "title",
+      description: "description",
+      image: img1,
+    },
+    {
+      title: "title",
+      description: "description",
+      image: img1,
+    },
+    {
+      title: "title",
+      description: "description",
+      image: img1,
+    },
   ];
 
   return (
