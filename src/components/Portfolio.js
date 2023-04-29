@@ -1,39 +1,50 @@
 import React from "react";
 import Card from "./card";
-
 import img1 from "../images/Anna.jpeg";
 
 function Portfolio() {
   const projects = [
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "",
+      repo: "",
     },
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "",
+      repo: "",
     },
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "",
+      repo: "",
     },
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "",
+      repo: "",
     },
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "",
+      repo: "",
     },
     {
       title: "title",
-      description: "description",
+      // description: "description",
       image: img1,
+      url: "hgfj",
+      repo: "",
     },
   ];
 

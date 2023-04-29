@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/ContactForm"
 import { useForm, ValidationError } from '@formspree/react';
 
 
@@ -9,7 +10,7 @@ function ContactForm() {
   }
   return (
     <div className='contact-container'>
-        <form onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
             <label htmlFor="email"> Email Address </label>
             <input id="email" type="email" name="email" />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
