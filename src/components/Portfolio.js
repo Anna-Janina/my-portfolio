@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./card";
-import img1 from "../images/Work Day Scheduler.png";
-import img2 from "../images/Weather Dashboard.png";
-import img3 from "../images/Readme Generator.png";
-import img4 from "../images/Team Profile Generator.png";
-import img5 from "../images/Note Tacker.png";
-import img6 from "../images/Social Network API.png";
+import img1 from "../images/Work-Day-Scheduler.png";
+import img2 from "../images/Weather-Dashboard.png";
+import img3 from "../images/Readme-Generator.png";
+import img4 from "../images/Team-Profile-Generator.png";
+import img5 from "../images/Note-Tacker.png";
+import img6 from "../images/Social-Network-API.png";
 
 
 function Portfolio() {
@@ -14,12 +14,12 @@ function Portfolio() {
       title: "Work Day Scheduler",
       image: img1,
       url: "https://anna-janina.github.io/Work-Day-Scheduler/",
-      repo: "https://github.com/Anna-Janina/am-module-5",
+      repo: "https://anna-janina.github.io/am-module-5/",
     },
     {
       title: "Weather Dashboard",
       image: img2,
-      url: "https://anna-janina.github.io/Weather-Dashboard/",
+      url: "https://anna-janina.github.io/am-module-6/",
       repo: "https://github.com/Anna-Janina/am-module-6",
     },
     {
@@ -49,9 +49,12 @@ function Portfolio() {
   ];
 
   return (
-    <div className="card-container">
+    <div className="mt-10 flex flex-wrap">
       {projects.map((project, index) => {
-        return <Card key={index} project={project} />;
+        return <div className={`w-full sm:w-1/2 md:w-1/3 ${index % 4 === 3 ? "clear-left" : ""}`}>
+          <Card key={index} project={project} />
+        </div>
+         
       })}
     </div>
   );
