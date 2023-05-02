@@ -13,8 +13,8 @@ function Portfolio() {
     {
       title: "Work Day Scheduler",
       image: img1,
-      url: "https://anna-janina.github.io/Work-Day-Scheduler/",
-      repo: "https://anna-janina.github.io/am-module-5/",
+      url: "https://anna-janina.github.io/am-module-5/",
+      repo: "https://github.com/Anna-Janina/am-module-5",
     },
     {
       title: "Weather Dashboard",
