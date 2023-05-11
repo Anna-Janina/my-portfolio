@@ -13,19 +13,19 @@ function Nav(props) {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <div>Anna Marcus</div>
-                <div href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("About")}} >
+                <div href="#" className="text-gray-300 hover:bg-[#0f766e] hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("About")}} >
                     About Me
                 </div>
 
-                <div href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Portfolio")}} >
+                <div href="#" className="text-gray-300 hover:bg-[#0f766e] hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Portfolio")}} >
                     Portfolio
                 </div>
 
-                <div href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Contact")}} >
+                <div href="#" className="text-gray-300 hover:bg-[#0f766e] hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Contact")}} >
                     Contact
                 </div>
 
-                <div href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Resume")}} >
+                <div href="#" className="text-gray-300 hover:bg-[#0f766e] hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={() => {props.setPage("Resume")}} >
                     Resume
                 </div>
                   

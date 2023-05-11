@@ -49,12 +49,11 @@ function Portfolio() {
   ];
 
   return (
-    <div className="mt-10 flex flex-wrap">
+    <div className="mt-10 mb-14 flex flex-wrap">
       {projects.map((project, index) => {
         return <div className={`w-full sm:w-1/2 md:w-1/3 ${index % 4 === 3 ? "clear-left" : ""}`}>
           <Card key={index} project={project} />
-        </div>
-         
+        </div> 
       })}
     </div>
   );
