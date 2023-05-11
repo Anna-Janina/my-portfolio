@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card";
+import Card from "./Card";
 import img1 from "../images/Work-Day-Scheduler.png";
 import img2 from "../images/Weather-Dashboard.png";
 import img3 from "../images/Readme-Generator.png";
