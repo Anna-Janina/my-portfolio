@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.a2959852.css",
+    "main.js": "/my-portfolio/static/js/main.ba46636c.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Readme-Generator.png": "/my-portfolio/static/media/Readme-Generator.df0eba2717d75fc84da0.png",
+    "static/media/Social-Network-API.png": "/my-portfolio/static/media/Social-Network-API.5a294de203aa1e1f1b73.png",
+    "static/media/Anna.jpeg": "/my-portfolio/static/media/Anna.ad21c8200c9615484e95.jpeg",
+    "static/media/Weather-Dashboard.png": "/my-portfolio/static/media/Weather-Dashboard.1ed59b7fcf7034446821.png",
+    "static/media/Team-Profile-Generator.png": "/my-portfolio/static/media/Team-Profile-Generator.66d58684649ef1f2a5ed.png",
+    "static/media/Note-Tacker.png": "/my-portfolio/static/media/Note-Tacker.570e3527a93a100260f3.png",
+    "static/media/Anna Marcus Resume 2023.pdf": "/my-portfolio/static/media/Anna Marcus Resume 2023.5a3e33c959fbba10321b.pdf",
+    "static/media/Work-Day-Scheduler.png": "/my-portfolio/static/media/Work-Day-Scheduler.0b9bbe4d72b88a02bf6e.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.a2959852.css.map": "/my-portfolio/static/css/main.a2959852.css.map",
+    "main.ba46636c.js.map": "/my-portfolio/static/js/main.ba46636c.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2959852.css",
+    "static/js/main.ba46636c.js"
+  ]
+}
