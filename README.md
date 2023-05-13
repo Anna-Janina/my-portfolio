@@ -23,6 +23,8 @@ This is a single-page deployed portfolio that showcases the author's React and T
 
 ## Usage
 
+https://anna-janina.github.io/my-portfolio/
+
  ![alt text](./src/images/About.png)
  ![alt text](./src/images/Portfolio.png)
  ![alt text](./src/images/Contact.png)
